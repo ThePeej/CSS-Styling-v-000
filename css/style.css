@@ -9,7 +9,7 @@ p {
   line-weight: 1em;
 }
 
-figcaption{
+figcaption {
   /*font-weight: normal;
   font-size: 0.75em;
   line-height: 1.5em;
@@ -19,7 +19,7 @@ figcaption{
   text-align: right;
 }
 
-.milk-text{
+.milk-text {
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
@@ -42,7 +42,11 @@ figcaption{
   text-decoration: none;
 }
 
-#details a:hover{
+#details a:hover {
   color:black;
   text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
 }
